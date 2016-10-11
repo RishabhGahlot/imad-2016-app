@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var content = {
+var articleOne = {
     title:'Article-one',
     heading:'article one',
     date: 'sep 5th 2016',
@@ -57,7 +57,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-  res.send(createTemplate(ArticleOne));
+  res.send(createTemplate(articleOne));
 });
 app.get('/article-two', function (req, res) {
   res.send('article two is requested and will be served here');
