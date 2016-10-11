@@ -20,3 +20,13 @@ body {
     height: 200px;
 }
 
+ .stuff{
+            max-width:600px;
+            margin:0 auto;
+            color:orange;
+            font-family:Monospace;
+             padding-top:80px;
+             padding-left:40px;
+             padding-right:40px;
+        }
+            
