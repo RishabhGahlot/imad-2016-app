@@ -16,4 +16,4 @@ img.onclick = function(){
     var interval = setInterval (moveRight,50);
     var interval2 = setInterval (movedown,50);
 };
-prompt("this is how we roll isnt it ");
+confirm( "this is how we roll isnt it ");
